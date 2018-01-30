@@ -1,3 +1,6 @@
 1) Example inside.
 2) Work only on backend(appication server).
 3) Can't run macros(Because p 2). If you still want run macros, using  some event. Document.Open Event, for example.
+
+
+For install in system have to using abapgit(http://docs.abapgit.org).
