@@ -1,0 +1,14 @@
+<xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:sap="http://www.sap.com/sapxsl" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" version="1.0">
+  <xsl:output encoding="UTF-8" indent="yes" method="xml" omit-xml-declaration="no" standalone="yes"/>
+  <xsl:template match="node()|@*">
+    <xsl:copy>
+      <xsl:apply-templates select="node()|@*"/>
+    </xsl:copy>
+  </xsl:template>
+  <xsl:template match="variable">
+    <xsl:apply-templates select="node()|@*"/>
+  </xsl:template>
+  <xsl:template match="block">
+    <xsl:apply-templates select="node()|@*"/>
+  </xsl:template>
+</xsl:transform>
