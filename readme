@@ -1,0 +1,3 @@
+Example inside.
+Work only on backend(appication server).
+Can't have posible to run macros. If you steel want run macros, using  some event. Document.Open Event, for example.
