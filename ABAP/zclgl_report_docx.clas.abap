@@ -833,21 +833,25 @@ ENDMETHOD.
 *--------------------------------------------------------------------*
 
     m_xmlns:
-              'wps' 'http://schemas.microsoft.com/office/word/2010/wordprocessingShape',
-              'wne' 'http://schemas.microsoft.com/office/word/2006/wordml',
-              'wpi' 'http://schemas.microsoft.com/office/word/2010/wordprocessingInk',
-              'wpg' 'http://schemas.microsoft.com/office/word/2010/wordprocessingGroup',
-              'w14' 'http://schemas.microsoft.com/office/word/2010/wordml',
-              'w' 'http://schemas.openxmlformats.org/wordprocessingml/2006/main',
-              'w10' 'urn:schemas-microsoft-com:office:word',
-              'wp' 'http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing',
+              'wps'  'http://schemas.microsoft.com/office/word/2010/wordprocessingShape',
+              'wne'  'http://schemas.microsoft.com/office/word/2006/wordml',
+              'wpi'  'http://schemas.microsoft.com/office/word/2010/wordprocessingInk',
+              'wpg'  'http://schemas.microsoft.com/office/word/2010/wordprocessingGroup',
+              'w14'  'http://schemas.microsoft.com/office/word/2010/wordml',
+              'w15'  'http://schemas.microsoft.com/office/word/2012/wordml',
+              'w'    'http://schemas.openxmlformats.org/wordprocessingml/2006/main',
+              'w10'  'urn:schemas-microsoft-com:office:word',
+              'wp'   'http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing',
               'wp14' 'http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing',
-              'v' 'urn:schemas-microsoft-com:vml',
-              'm' 'http://schemas.openxmlformats.org/officeDocument/2006/math',
-              'r' 'http://schemas.openxmlformats.org/officeDocument/2006/relationships',
-              'o' 'urn:schemas-microsoft-com:office:office', 'mc' 'http://schemas.openxmlformats.org/markup-compatibility/2006',
-              'wpc' 'http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas',
-              'mc' 'http://schemas.openxmlformats.org/markup-compatibility/2006'.
+              'v'    'urn:schemas-microsoft-com:vml',
+              'm'    'http://schemas.openxmlformats.org/officeDocument/2006/math',
+              'r'    'http://schemas.openxmlformats.org/officeDocument/2006/relationships',
+              'o'    'urn:schemas-microsoft-com:office:office',
+              'mc'   'http://schemas.openxmlformats.org/markup-compatibility/2006',
+              'wpc'  'http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas',
+              'mc'   'http://schemas.openxmlformats.org/markup-compatibility/2006'
+
+.
   ENDMETHOD.
 
 
